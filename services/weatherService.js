@@ -22,7 +22,7 @@ async function getWeatherData(city) {
             params: {
                 lat,
                 lon,
-                appid: '3241aa58719c9ee49a144c331eb1b949'
+                appid: API_KEY
             }
         });
         return response.data;
